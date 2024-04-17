@@ -127,7 +127,7 @@ def main():
         for x in movies:
             title == x["title"]
             if m == x["title"]:
-                get_ticket(movie)
+                get_ticket(x)
                 show_movies(movies)
 
 main()
